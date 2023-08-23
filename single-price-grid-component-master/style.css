@@ -1,0 +1,121 @@
+
+.card{
+    font-family: Karla;
+    font-size: 2.vh;
+    width: 127%;
+}
+.top {
+    background-color: rgba(214, 235, 233, 0.692);
+    margin-left: 13.5%;
+    margin-right: 34%;
+    margin-top: 14vw;
+    padding-bottom: 1vh;
+    padding-top: 2vh;
+    padding-left: 5vh;
+}
+.top h2{
+    color: #2bb3b1;
+}
+.top h4{
+    color: #b4ce43f6;
+}
+.top p{
+    color: #4f524af6;
+    padding-right: 17vh;
+}
+.topleft {
+    background-color: rgb(43 179 177);
+    padding-left: 4vw;
+    margin-left: 16.8vw;
+    text-align: center;
+    padding-right: 6vw;
+    color: white;
+    padding-bottom: 3vh;
+    line-height: 16px;
+    width: 19%;
+}
+.topleft .price{
+    display: flex;
+    padding-top: 2vh;
+}
+.topleft .price h4{
+    padding-top: 1vh;
+    margin-left: 2vh;
+}
+.topleft .btn{
+    background-color: #bfdf32;
+    border: none;
+    color: #fff; /* Text color */
+    padding: 8px 75px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #272946;
+}
+
+.topright {
+    background-color: rgb(74, 190, 189);
+    padding-left: 2vw;
+    color: white;
+    justify-content: left;
+    text-align: left;
+    padding-right: 0vw;
+    width: 24%;
+}
+.both {
+  display: flex;
+  
+}
+.both p{
+    text-align: left;
+}
+.card .top .p1 {
+  background-color: white;
+}
+.card .topright p{
+    width: 22vw;
+    text-align: left;
+    line-height: 26px;
+}
+@media screen and (max-width: 600px) {
+    .top{
+        font-size: 2vw;
+        width: 46%;
+    }
+    .top p{
+        margin-top: 18px;
+        margin-right: 0px;
+        margin-left: -8px;
+        padding-right: 0px;
+        line-height: 26px;
+    }
+    .topleft{
+        display: grid;
+        padding-left: 1.6vw;
+        margin-left: 13.2vw;
+        width: 43%;
+        justify-content: center;
+    }
+    .card{
+        width: auto;
+    }
+    .both{
+        flex-direction: column;
+    }
+    .topright{
+        width: 45%;
+        margin-left: 13.5%;
+        padding-left: 6%;
+        padding-bottom: 4%;
+    }
+    .topright .div2 {
+        width: 50%;
+        display: contents;
+        font-size: 14px;
+        padding-bottom: 5%;
+    }
+    
+    
+}
